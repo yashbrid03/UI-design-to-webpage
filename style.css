@@ -1,0 +1,187 @@
+/* Code By :- Yash Brid
+ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #100f0f;
+}
+
+section {
+  height: 100vh;
+  width: 100vw;
+}
+
+#sec1 {
+  background-image: url("./assets/bg.png");
+  background-size: 100% 100%;
+}
+
+.landscape {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 500px;
+  width: auto;
+  border-radius: 500px 500px 0px 0px;
+  z-index: 2;
+}
+
+.duplicate {
+  position: absolute;
+  top: 69%;
+  left: 51%;
+  transform: translate(-50%, -50%);
+  height: 500px;
+  width: auto;
+  filter: blur(6px);
+  border-radius: 500px 500px 0px 0px;
+  z-index: 1;
+}
+
+#shape {
+  position: absolute;
+  top: 33%;
+  left: 35%;
+  height: 350px;
+  width: 200px;
+  border-radius: 500px;
+  border: 1px solid white;
+  z-index: 3;
+}
+
+nav {
+  top: 0;
+  right: 1%;
+  position: fixed;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+li {
+  margin-top: 26px;
+  margin-inline: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-family: poppins;
+}
+
+.heading {
+  position: absolute;
+  top: 90px;
+  left: 50%;
+  text-align: center;
+  transform: translateX(-50%);
+  color: white;
+}
+
+.h1_1 {
+  font-family: poppins;
+  font-size: 72px;
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+}
+
+.h1_2 {
+  font-family: "Baloo Bhaina 2";
+  font-size: 100px;
+  text-shadow: 3px 0px 1px #52e4f8, -3px 0px 1px #ff3c3c;
+}
+
+.text {
+  position: absolute;
+  top: 300px;
+  left: 6%;
+  transform: translate(-6%);
+  width: 486px;
+  color: white;
+  font-family: poppins;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.indicator {
+  position: fixed;
+  top: -0.9%;
+  left: 77.5%;
+  width: 50px;
+  height: 99px;
+  border-radius: 50%;
+  transform: rotate(80deg);
+  border: 2px solid white;
+  pointer-events: none;
+}
+
+.logo {
+  position: fixed;
+  width: 60px;
+  height: auto;
+  margin-left: 4%;
+  margin-top: 0.6%;
+}
+
+#circ_container {
+  position: absolute;
+  width: 13%;
+  top: 500px;
+  left: 63%;
+  transform: translateX(-63%);
+  z-index: 3;
+}
+
+#circ_container2 {
+  position: absolute;
+  width: 13%;
+  top: 500px;
+  left: 63%;
+  transform: translateX(-63%);
+}
+
+#circle {
+  -webkit-text-stroke: 1px white;
+  color: transparent;
+  font-size: 50px;
+  font-weight: 900;
+  transition: all 0.5s linear;
+}
+
+#circle2 {
+  color: white;
+  font-size: 50px;
+  font-weight: 900;
+  transition: all 0.5s linear;
+}
+
+#text2 {
+  position: absolute;
+  color: white;
+  transform: rotate(90deg);
+  font-family: poppins;
+  font-size: 30px;
+  right: -1%;
+  top: 72%;
+}
+
+.home {
+  left: 77.5%;
+}
+
+.explore {
+  left: 85%;
+}
+
+.contact {
+  left: 93%;
+}
